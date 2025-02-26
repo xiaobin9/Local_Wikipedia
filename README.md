@@ -13,5 +13,5 @@ Deploy Wikipedia locally and mimic the functions of [Search() and Lookup()]
      b)mkdir zims <br>
      c)cd zims<br>
      d)wget https://www.mirrorservice.org/sites/download.kiwix.org/zim/wikipedia/wikipedia_en_all_nopic_2024-06.zim<br>
-    4、Move to the directory of the folder that was unzipped in the second step. 
+    4、Move to the directory of the folder that was unzipped in the second step. <br>
     ./kiwix-serve --port=60001 ../zims/wikipedia_en_all_nopic_2024-06.zim
