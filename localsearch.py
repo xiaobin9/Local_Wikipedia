@@ -7,11 +7,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import requests
 from bs4 import BeautifulSoup
-class BaiduSearchWrapper:
+class SearchWrapper:
     def __init__(self):
-        """
-        初始化 BaiduSearchWrapper 类，这里暂时不需要额外的初始化参数
-        """
+       
         pass
 
     # def perform_search(self, query: str):
@@ -76,8 +74,8 @@ class BaiduSearchWrapper:
 
 # 使用示例
 if __name__ == "__main__":
-    # 创建 BaiduSearchWrapper 类的实例
-    search_wrapper = BaiduSearchWrapper()
+    # 创建 SearchWrapper 类的实例
+    search_wrapper = SearchWrapper()
     # 调用 perform_search 方法进行搜索
     print("Question:Romeo and Juliet")
     search_results = search_wrapper.kiwix_wikipedia('Romeo and Juliet')
