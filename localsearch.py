@@ -39,7 +39,7 @@ class SearchWrapper:
     
     def kiwix_wikipedia(self, query: str):
         query=self.clean_query(query)
-        url = "http://211.69.141.168:60001/viewer#wikipedia_en_all_nopic_2024-06/A/"+query
+        url = "http://your_url/viewer#wikipedia_en_all_nopic_2024-06/A/"+query
 
         # 设置 Chrome 选项
         chrome_options = Options()
